@@ -11,8 +11,6 @@
  limitations under the License.
 -->
 <resources>
-    <string name="record">Record</string>
-    <string name="stop">Stop</string>
     <string name="picture">Picture</string>
     <string name="description_info">Info</string>
     <string name="request_permission">This App requires permission from the camera.</string>

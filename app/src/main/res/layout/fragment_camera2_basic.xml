@@ -41,17 +41,4 @@
         android:src="@android:drawable/ic_menu_gallery"
         app:backgroundTint="@color/cardview_dark_background" />
 
-    <Button
-        android:id="@+id/video"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:layout_marginStart="157dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="22dp"
-        android:layout_toEndOf="@+id/fab_take_photo"
-        android:text="@string/record" />
-
 </RelativeLayout>
