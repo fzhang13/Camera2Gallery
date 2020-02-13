@@ -38,7 +38,7 @@ public class GalleryActivity extends AppCompatActivity {
         }
     }
 
-
+//builds the gallery app and request permission
     private void initMedia(){
         recyclerView=  findViewById(R.id.recyclerView);
         imageItemList=new ArrayList<>();

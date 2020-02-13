@@ -21,7 +21,7 @@ public class MediaQuery {
     private Cursor cursor;
     List<ImageItem> imageItems;
 
-    String contains =  "%JPEG%";
+    String contains =  "%COOLMUSCLE%";
     Uri mImageUri = MediaStore.Files.getContentUri("external");
     String selection = MediaStore.Images.Media.DATA + " like ? ";
     String[] selectionArgs = new String[]{ contains };

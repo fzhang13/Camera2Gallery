@@ -133,8 +133,8 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 public void onClick(View v) {
                     Intent intent = new Intent();
                     intent.setAction(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse(vFilePath));
-                    intent.setDataAndType(Uri.parse(vFilePath), "image/*");
+//                    intent.setData(Uri.parse(vFilePath));
+                    intent.setDataAndType(Uri.parse(vFilePath), "image/jpeg");
                     context.startActivity(intent);
                 }
             });
